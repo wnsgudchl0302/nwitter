@@ -1,4 +1,23 @@
 # 최준형
+## [ 3월 30일 ]
+### google firebase nwitter 프로젝트 생성 
+<br>
+
+### firebase 설치
+
+    npm install firebase
+
+### firebase config 설정
+
+- 암호파일 생성 후 gitignore를 이용해서 보안처리
+
+### routes관련 js 생성
+ - Router.js
+ - Auth.js
+ - EditProfile.js
+ - Home.js
+ - Profile.js
+
 ## [ 3월 23일 ] 
 
 리엑트 앱 생성
