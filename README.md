@@ -1,4 +1,40 @@
 # 최준형
+## [ 4월 13일 ]
+- firebase 오류
+    - 경로 오류 - fbase.js import 수정
+
+            import firebase from "firebase/compat/app";
+
+    - 버전 오류
+
+            npm install firebase @8.8.0
+
+- UserState 값 False -> authService.currentUser 설정
+
+        const [isLoggedIn, setIsLoggedIn] = useState(authService.currentUser);
+- 구글, Git 로그인 설정 해보기
+## [ 4월 06일 ]
+### Router 적용
+- useState function 사용
+    
+        import { useState } from "react";
+
+        const [isLoggedIn, setIsLoggedIn] = useState(authService.currentUser);
+
+- 라우터 버전 낮추기
+
+        npm install react-router-dom@5.2.0
+
+- 기본 경로 설정을 위한 json 파일 생성
+ 
+        {
+            "compilerOptions": {
+                "baseUrl": "src"
+            },
+            "include": ["src"]
+        }
+
+
 ## [ 3월 30일 ]
 ### google firebase nwitter 프로젝트 생성 
 
